@@ -1,0 +1,19 @@
+{
+    "name": "cadence/module-urldedup",
+    "description": "CLI feature to find and change duplicated url-keys",
+    "type": "magento2-module",
+    "homepage": "https://www.cadence-labs.com/2017/11/magento-2-fix-duplicate-url-key-for-categories-and-products/",
+    "license": [
+        "GPL-3.0"
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Cadence\\UrlDedup\\": ""
+        }
+    }
+}
